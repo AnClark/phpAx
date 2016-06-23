@@ -1,0 +1,29 @@
+html
+{
+	font-family: Microsoft Yahei UI, 微软雅黑, Segoe UI;
+}
+
+/* 			这是我自建的简易栅格系统，四列		*/
+.row
+{
+	border-style:solid;
+	border-width:1px;
+	
+	height:20px;
+	
+}
+
+.col-one-in-four
+{
+	position:relative;
+	float:left;
+	width: 24.91%;
+	border-right-style: solid;
+	border-width:1px;
+}
+
+.header
+{
+	background-color:black;
+	color:white;
+}
